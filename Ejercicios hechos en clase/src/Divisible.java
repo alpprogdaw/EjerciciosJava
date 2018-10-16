@@ -13,7 +13,7 @@ public class Divisible{
 		System.out.println("introduce otro número: ");
 		int y = in.nextInt();
 		
-		if(x%y==0) {
+		if(x % y == 0) {
 			System.out.println(x + " es divisible por " + y);
 		}
 		else {
@@ -24,8 +24,6 @@ public class Divisible{
 			in.close();
 		}
 		
-		
-
 	}
 	}
 }
